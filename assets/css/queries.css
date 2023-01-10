@@ -43,6 +43,29 @@
     align-items: center;
     padding: 2.5rem;
   }
+
+  /**
+  * discover section
+  */
+
+  .discover-features {
+    grid-template-columns: 1fr;
+    padding: 0;
+  }
+
+  .discover-box-img {
+    align-self: center;
+  }
+
+  .discover-img {
+    width: 70%;
+    margin: 0 auto;
+    display: block;
+  }
+
+  .features-box {
+    margin-bottom: 3.2rem;
+  }
 }
 
 @media (max-width: 48em) {

@@ -301,3 +301,85 @@
   font-size: 1.2rem;
   line-height: 1.5;
 }
+
+/* -----------------------------------*\
+ #discover section
+\*------------------------------------*/
+
+.discover-section {
+  background-color: var(--primary);
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+.divcover-heading-box {
+  margin: 0 auto;
+}
+
+.discover-img {
+  width: 80%;
+}
+
+.text-color {
+  color: #fff;
+}
+
+.discover-features {
+  padding: 0 9.6rem;
+}
+
+.features-box {
+  gap: 2rem;
+}
+
+.feature-box {
+  padding: 2.2rem 3.2rem;
+  padding: 3.2rem;
+  border: 1px solid rgba(255, 255, 255, 0.075);
+  border-radius: 4px;
+  position: relative;
+}
+
+.feature-box-content {
+  margin-left: 2.4rem;
+}
+
+.feature-box-title::before,
+.blue-title-point::before,
+.green-title-point::before {
+  content: "";
+
+  position: absolute;
+  top: 3.5rem;
+  left: 3rem;
+
+  padding: 0.7rem;
+  border-radius: 50%;
+}
+
+.feature-box-title::before {
+  box-shadow: 0px 0px 0px 5px rgba(255, 62, 102, 0.1);
+  background-color: var(--secondary);
+}
+
+.blue-title-point::before {
+  box-shadow: 0px 0px 0px 5px rgba(54, 121, 255, 0.1);
+  background-color: #3679ff;
+}
+
+.green-title-point::before {
+  box-shadow: 0px 0px 0px 5px rgba(51, 201, 86, 0.1);
+  background-color: #33c956;
+}
+
+.feature-box-title {
+  font-size: 1.9rem;
+  margin-bottom: 0.8rem;
+  font-weight: 700;
+}
+
+.feature-box-description {
+  color: #8f8f8f;
+  font-size: 1.12rem;
+}
