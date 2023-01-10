@@ -746,7 +746,92 @@
   font-size: 1.6rem;
   font-weight: 400;
 }
-+
+
+/**
+* testimonial
+*/
+
+.testimonial {
+  background-image: url("../imgs/testimonial-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  border: 1px solid #ccc;
+  color: #fff;
+
+  gap: 4.8rem;
+  padding: 12rem 17rem;
+  margin: 9.6rem 0;
+}
+
+.testimonial-header {
+  gap: 0.5rem;
+}
+
+.testimonial-picture {
+  border-radius: 50%;
+  margin-bottom: 0.5rem;
+}
+
+.stars-rating-icons {
+  color: #faa00f;
+}
+
+.testimonial-body {
+  align-items: flex-start;
+  gap: 2.4rem;
+}
+
+.testimonial-text {
+  line-height: 1.5;
+}
+
+.testimonial-name {
+  margin-bottom: 0.5rem;
+  font-size: 1.6rem;
+}
+
+.testimonial-job,
+.testimonial-rating-number {
+  font-size: 1.1rem;
+  opacity: 70%;
+  font-size: 500;
+}
+
+.testimonial-footer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.btn-slide--color {
+  color: #fff;
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+/**
+* galery
+*/
+
+.platform-img {
+  width: 10rem;
+  height: 10rem;
+  padding: 3rem;
+  box-shadow: 0 1.2rem 3.6rem rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+}
+
+.platforms-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 3rem;
+  padding: 0px 8.4rem;
+}
+
+.pricing-section .header-content {
+  margin-bottom: 6rem;
+}
+
 /**
 * testimonial
 */
@@ -832,87 +917,116 @@
   margin-bottom: 6rem;
 }
 
-/**
-* testimonial
-*/
+/* -----------------------------------*\
+ #Footer
+\*------------------------------------*/
 
-.testimonial {
-  background-image: url("../imgs/testimonial-bg.jpg");
-  background-size: cover;
-  background-position: center;
-  border: 1px solid #ccc;
-  color: #fff;
-
-  gap: 4.8rem;
-  padding: 12rem 17rem;
-  margin: 9.6rem 0;
+.footer {
+  padding: 8rem 12.8rem 6.4rem;
 }
 
-.testimonial-header {
-  gap: 0.5rem;
+.main-footer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: 0.75fr 0.5fr 0.5fr 1fr;
+  row-gap: 2.4rem;
+  align-items: start;
+  justify-content: start;
+  margin-bottom: 8rem;
 }
 
-.testimonial-picture {
-  border-radius: 50%;
-  margin-bottom: 0.5rem;
+.logo-col {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
 }
 
-.stars-rating-icons {
-  color: #faa00f;
-}
-
-.testimonial-body {
-  align-items: flex-start;
-  gap: 2.4rem;
-}
-
-.testimonial-text {
+.about-us {
+  font-size: 1.27rem;
+  width: 30ch;
   line-height: 1.5;
 }
 
-.testimonial-name {
-  margin-bottom: 0.5rem;
-  font-size: 1.6rem;
+.social-icon {
+  color: #0e1133;
 }
 
-.testimonial-job,
-.testimonial-rating-number {
-  font-size: 1.1rem;
-  opacity: 70%;
-  font-size: 500;
-}
-
-.testimonial-footer {
+.social-links {
   display: flex;
+  gap: 1rem;
+  list-style: none;
+  color: #0e1133;
+  margin-top: 1rem;
+}
+.social-links li {
+  padding: 0.8rem 1rem;
+  background-color: #fff;
+  border-radius: 4px;
+  color: #000;
+}
+
+.footer-heading {
+  margin-bottom: 1.6rem;
+}
+
+.footer-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  list-style: none;
+}
+
+.footer-link {
+  color: #515273;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.contact,
+.contact .footer-link {
+  color: #808086;
+}
+
+.contact {
+  font-style: normal;
+  font-size: 1.2rem;
+}
+
+.copyright-footer,
+.app-download,
+.app-btn-default {
+  display: flex;
+  align-items: center;
+}
+
+.copyright-footer {
+  gap: 1.6rem;
   justify-content: space-between;
-  width: 100%;
+  border-top: 1px solid rgba(0, 0, 0, 0.05);
+  padding-top: 3.2rem;
 }
 
-.btn-slide--color {
-  color: #fff;
-  border-color: rgba(255, 255, 255, 0.2);
-}
-
-/**
-* galery
-*/
-
-.platform-img {
-  width: 10rem;
-  height: 10rem;
-  padding: 3rem;
-  box-shadow: 0 1.2rem 3.6rem rgba(0, 0, 0, 0.15);
-  border-radius: 10px;
-}
-
-.platforms-gallery {
-  display: flex;
-  flex-wrap: wrap;
+.app-btn-default {
+  color: #0e1133;
+  gap: 0.5rem;
   justify-content: center;
-  gap: 3rem;
-  padding: 0px 8.4rem;
+  padding: 1rem 1.6rem;
+  background-color: #fff;
+  border-radius: 4px;
+  font-size: 1.2rem;
+  text-decoration: none;
 }
 
-.pricing-section .header-content {
-  margin-bottom: 6rem;
+.address,
+.copyright,
+.email-info,
+.tel-info {
+  font-size: 1.27rem;
+}
+
+.email-info,
+.tel-info {
+  text-decoration: none;
+  color: #515273;
 }
