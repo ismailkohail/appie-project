@@ -1,0 +1,40 @@
+/* -----------------------------------*\
+ #HEADER 
+\*------------------------------------*/
+
+.header {
+  background-color: var(--bg);
+  height: 6.4rem;
+  width: 100%;
+  padding: 0 7rem;
+}
+
+.header-container {
+  display: flex;
+}
+
+.logo {
+  width: 8.47rem;
+}
+
+.main-nav-list {
+  list-style: none;
+  gap: 2.6rem;
+  margin-left: 8rem;
+}
+
+.main-nav-link {
+  color: #151f43;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+
+.btn-mobile-nav {
+  font-size: 3.5rem;
+  display: none;
+  background: none;
+  border: none;
+  margin-left: 2rem;
+  cursor: pointer;
+}

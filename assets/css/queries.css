@@ -1,0 +1,26 @@
+@media (max-width: 62em) {
+  /* Your styles for large devices go here */
+  body {
+    line-height: 1.16;
+  }
+
+  .main-nav {
+    display: none;
+  }
+  .btn-mobile-nav {
+    display: block;
+  }
+}
+
+@media (max-width: 48em) {
+  body {
+    line-height: 1.32;
+  }
+}
+
+@media (max-width: 36em) {
+  /* Your styles for small devices go here */
+  body {
+    line-height: 1.5;
+  }
+}
