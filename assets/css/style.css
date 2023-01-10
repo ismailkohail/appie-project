@@ -559,3 +559,61 @@
   height: 4rem;
   border-radius: 50%;
 }
+
+/* -----------------------------------*\
+ #Download App
+\*------------------------------------*/
+
+.app-container {
+  padding: 6rem 0;
+}
+
+.app-download {
+  gap: 1rem;
+  margin-top: 3.2rem;
+}
+
+.android-btn-default {
+  background: none;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.app-section {
+  background-color: var(--bg);
+  text-align: left;
+}
+.text-left {
+  text-align: left;
+}
+.container.text-left {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+.app-btn-default--bg {
+  font-size: 1.6rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  text-decoration: none;
+  padding: 0.8rem 3rem 0.8rem 1.2rem;
+  border: 1px solid rgba(0, 0, 0, 1);
+  border-radius: 12px;
+  color: #0e1133;
+  background-color: #fff;
+  text-align: left;
+}
+
+.app-btn-default-log {
+  font-size: 2.5rem;
+}
+
+.ios-btn-default--bg {
+  color: #fff;
+  background-color: #0e1133;
+}
+
+.app-icon {
+  font-size: 4rem;
+}
