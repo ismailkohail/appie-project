@@ -8,6 +8,10 @@
     line-height: 1.16;
   }
 
+  .container {
+    padding: 7.5rem 8rem 8.5rem;
+  }
+
   /**
   * Header
   */
@@ -74,6 +78,18 @@
   */
   body {
     line-height: 1.32;
+  }
+
+  .container {
+    padding: 7.5rem 6.4rem 8.5rem;
+  }
+
+  .heading-secondary {
+    font-size: 2.5rem;
+  }
+
+  .text-align {
+    text-align: center;
   }
 
   /**
