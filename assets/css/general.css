@@ -1,0 +1,130 @@
+/*-----------------------------------*\
+    #VARIABLE
+\*-----------------------------------*/
+
+:root {
+  --primary: #0e1133;
+  --secondary: #ff3e66;
+  --bg: #eef1f6;
+}
+
+/*-----------------------------------*\
+    #RESET
+\*-----------------------------------*/
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Roboto", sans-serif;
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  line-height: 1;
+  color: #424242;
+  background-color: var(--bg);
+  max-width: 130rem;
+  margin: 0 auto;
+}
+
+/*-----------------------------------*\
+  #REUSABLE STYLE
+\*-----------------------------------*/
+
+.container {
+  padding: 9.6rem 12.8rem;
+}
+.container--2 {
+  padding: 4.8rem 0 9.6rem;
+}
+
+/**
+* Layout
+*/
+
+.flex {
+  display: flex;
+}
+
+.flex-row-center,
+.flex-col-center {
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-col-center {
+  flex-direction: column;
+}
+
+.grid {
+  display: grid;
+}
+
+.grid-2--cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-3--cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+/**
+* Buttons 
+*/
+
+.btn-default {
+  display: inline-block;
+  color: #333333;
+  background: none;
+  border: none;
+  padding: 1.6rem 3.2rem;
+  border-radius: 3rem;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.btn-border {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  font-weight: 500;
+  padding: 1rem 2.5rem;
+}
+
+.btn-primary {
+  font-size: 1.2rem;
+  color: #fff;
+  font-weight: 600;
+  background-color: var(--secondary);
+  padding: 1.2rem 2.4rem;
+  margin-left: auto;
+}
+
+/**
+* Text and links 
+*/
+
+.heading-secondary {
+  font-size: 3.55rem;
+  color: var(--primary);
+  margin-bottom: 1.6rem;
+}
+
+.read-more {
+  font-size: 1.13rem;
+  text-decoration: none;
+  color: #747479;
+  font-weight: 500;
+}
+
+.tag {
+  font-size: 1.2rem;
+  color: var(--secondary);
+  font-weight: 500;
+  margin-bottom: 1.6rem;
+}
