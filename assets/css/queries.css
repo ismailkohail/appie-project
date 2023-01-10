@@ -1,8 +1,16 @@
 @media (max-width: 62em) {
   /* Your styles for large devices go here */
+
+  /**
+  * General
+  */
   body {
     line-height: 1.16;
   }
+
+  /**
+  * Header
+  */
 
   .main-nav {
     display: none;
@@ -10,16 +18,53 @@
   .btn-mobile-nav {
     display: block;
   }
+
+  /**
+  * Hero
+  */
+  .hero-text-box {
+    min-width: 100%;
+  }
 }
 
 @media (max-width: 48em) {
+  /**
+  * General
+  */
   body {
     line-height: 1.32;
+  }
+
+  /**
+  * Hero
+  */
+
+  .hero {
+    grid-template-columns: 1fr;
+    padding: 0;
+  }
+
+  .heading-primary {
+    font-size: 3.4rem;
+    line-height: 1.2;
+  }
+
+  .hero-img-box {
+    width: 50%;
+    margin-left: auto;
+  }
+
+  .hero-text-box {
+    padding: 6.4rem 5.12rem 0 5.12rem;
+    margin-bottom: 0;
   }
 }
 
 @media (max-width: 36em) {
   /* Your styles for small devices go here */
+  /**
+  * General
+  */
   body {
     line-height: 1.5;
   }
