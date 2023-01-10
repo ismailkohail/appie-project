@@ -617,3 +617,302 @@
 .app-icon {
   font-size: 4rem;
 }
+
+/* -----------------------------------*\
+ #pricing setion
+\*------------------------------------*/
+
+.pricing-section {
+  background-color: #fff;
+}
+
+.plan-switch {
+  display: inline-block;
+  border: 2px solid rgba(14, 17, 51, 0.1);
+  padding: 0.3rem;
+  border-radius: 2rem;
+  margin-bottom: 4.2rem;
+}
+
+.btn-default-plan {
+  font-size: 1.3rem;
+  background: none;
+  border: none;
+  padding: 0.4rem 1.7rem;
+  border-radius: 2rem;
+}
+.active-plan {
+  color: #fff;
+  background-color: var(--secondary);
+}
+
+/**
+*
+*/
+
+.pricing-container {
+  column-gap: 2.4rem;
+}
+.pricing-card {
+  border: 1px solid rgba(14, 17, 51, 0.1);
+  border-radius: 4px;
+  padding: 2.4rem;
+  align-items: flex-start;
+  gap: 3rem;
+}
+.pricing-card .btn-primary {
+  margin-left: 0;
+  align-self: flex-start;
+}
+
+.cta-card {
+  border-top: 3px solid var(--secondary);
+  box-shadow: -0.1rem 1.1rem 3rem rgba(0, 0, 0, 0.2);
+  position: relative;
+}
+
+.pricing-header {
+  width: 100%;
+  border-bottom: 1px solid rgba(14, 17, 51, 0.1);
+  padding-bottom: 2.6rem;
+}
+.cta-card::after {
+  font-size: 1.1rem;
+  content: "Most Popular";
+  position: absolute;
+  top: 5%;
+  right: 0;
+  color: #fff;
+  background-color: #2a6df5;
+  border-top-left-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+  padding: 0.4rem 1.3rem;
+  font-weight: 500;
+}
+
+.pricing-features {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1.1rem;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.pricing-feature {
+  display: inline-flex;
+  align-items: center;
+}
+
+.pricing-feature-icon,
+.pricing-feature-icon--green {
+  font-size: 1.6rem;
+  border-radius: 50%;
+  height: 2rem;
+  width: 2rem;
+}
+
+.pricing-feature-icon {
+  color: #2a6df5;
+  background-color: rgba(47, 172, 252, 0.1);
+}
+
+.pricing-feature-icon--green {
+  color: #33c956;
+  background-color: rgba(51, 201, 86, 0.1);
+}
+
+.pricing-title {
+  font-weight: 500;
+  margin-bottom: 0.8rem;
+}
+
+.pricing-price {
+  margin-bottom: 1.4rem;
+}
+.pricing-price-amount {
+  font-size: 3rem;
+  color: #0e1133;
+  font-weight: 700;
+}
+
+.pricing-price-per,
+.pricing-price-info {
+  font-size: 1.1rem;
+  font-weight: 400;
+}
+
+.pricing-price-symbol {
+  font-size: 1.6rem;
+  font-weight: 400;
+}
++
+/**
+* testimonial
+*/
+
+.testimonial {
+  background-image: url("../imgs/testimonial-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  border: 1px solid #ccc;
+  color: #fff;
+
+  gap: 4.8rem;
+  padding: 12rem 17rem;
+  margin: 9.6rem 0;
+}
+
+.testimonial-header {
+  gap: 0.5rem;
+}
+
+.testimonial-picture {
+  border-radius: 50%;
+  margin-bottom: 0.5rem;
+}
+
+.stars-rating-icons {
+  color: #faa00f;
+}
+
+.testimonial-body {
+  align-items: flex-start;
+  gap: 2.4rem;
+}
+
+.testimonial-text {
+  line-height: 1.5;
+}
+
+.testimonial-name {
+  margin-bottom: 0.5rem;
+  font-size: 1.6rem;
+}
+
+.testimonial-job,
+.testimonial-rating-number {
+  font-size: 1.1rem;
+  opacity: 70%;
+  font-size: 500;
+}
+
+.testimonial-footer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.btn-slide--color {
+  color: #fff;
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+/**
+* galery
+*/
+
+.platform-img {
+  width: 10rem;
+  height: 10rem;
+  padding: 3rem;
+  box-shadow: 0 1.2rem 3.6rem rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+}
+
+.platforms-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 3rem;
+  padding: 0px 8.4rem;
+}
+
+.pricing-section .header-content {
+  margin-bottom: 6rem;
+}
+
+/**
+* testimonial
+*/
+
+.testimonial {
+  background-image: url("../imgs/testimonial-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  border: 1px solid #ccc;
+  color: #fff;
+
+  gap: 4.8rem;
+  padding: 12rem 17rem;
+  margin: 9.6rem 0;
+}
+
+.testimonial-header {
+  gap: 0.5rem;
+}
+
+.testimonial-picture {
+  border-radius: 50%;
+  margin-bottom: 0.5rem;
+}
+
+.stars-rating-icons {
+  color: #faa00f;
+}
+
+.testimonial-body {
+  align-items: flex-start;
+  gap: 2.4rem;
+}
+
+.testimonial-text {
+  line-height: 1.5;
+}
+
+.testimonial-name {
+  margin-bottom: 0.5rem;
+  font-size: 1.6rem;
+}
+
+.testimonial-job,
+.testimonial-rating-number {
+  font-size: 1.1rem;
+  opacity: 70%;
+  font-size: 500;
+}
+
+.testimonial-footer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.btn-slide--color {
+  color: #fff;
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+/**
+* galery
+*/
+
+.platform-img {
+  width: 10rem;
+  height: 10rem;
+  padding: 3rem;
+  box-shadow: 0 1.2rem 3.6rem rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+}
+
+.platforms-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 3rem;
+  padding: 0px 8.4rem;
+}
+
+.pricing-section .header-content {
+  margin-bottom: 6rem;
+}
