@@ -4,12 +4,17 @@
   /**
   * General
   */
+
   body {
     line-height: 1.16;
   }
 
   .container {
     padding: 7.5rem 8rem 8.5rem;
+  }
+
+  .tag {
+    margin: 0;
   }
 
   /**
@@ -76,6 +81,7 @@
   /**
   * General
   */
+
   body {
     line-height: 1.32;
   }
@@ -90,6 +96,10 @@
 
   .text-align {
     text-align: center;
+  }
+
+  .slides-controls {
+    display: none;
   }
 
   /**
@@ -119,6 +129,7 @@
   /**
   * FEATURES SECTION
   */
+
   .features-section-header {
     flex-direction: column;
     gap: 3.2rem;
@@ -131,10 +142,22 @@
   .marketing-features {
     flex-direction: column;
   }
+
+  /**
+  * statistics section
+  */
+
+  .learn-how {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+    gap: 3.2rem;
+  }
 }
 
 @media (max-width: 36em) {
   /* Your styles for small devices go here */
+
   /**
   * General
   */
@@ -143,9 +166,20 @@
     line-height: 1.5;
   }
 
+  .app-btn-default--bg {
+    font-size: 1.4rem;
+  }
+  .app-btn-default-log {
+    font-size: 2rem;
+  }
+  .btn-default {
+    transform: scale(80%);
+  }
+
   /**
   * FEATURES SECTION
   */
+
   .features-container {
     grid-template-columns: 1fr;
     align-items: center;

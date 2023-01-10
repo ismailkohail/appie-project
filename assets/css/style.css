@@ -383,3 +383,179 @@
   color: #8f8f8f;
   font-size: 1.12rem;
 }
+
+/* -----------------------------------*\
+ #statistics section
+\*------------------------------------*/
+
+.statistics-section {
+  background-color: #fff;
+}
+
+.statistics-numbers-box {
+  gap: 7.2rem;
+  flex-wrap: wrap;
+}
+
+.statistics-item {
+  padding: 3.4rem 4.2rem;
+  border-radius: 6px;
+  box-shadow: 0 1rem 3.2rem rgba(0, 0, 0, 0.08);
+}
+
+.item-numbers {
+  font-size: 3.2rem;
+  font-weight: 500;
+  color: #0e1133;
+  margin-bottom: 0.4rem;
+}
+
+.item-text {
+  font-size: 1.2rem;
+}
+
+.statistics-item-img {
+  width: 4.5rem;
+}
+
+/**
+* Video learn how 
+*/
+
+.learn-how {
+  gap: 3.2rem;
+  align-items: flex-start;
+}
+
+.video-section {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+
+.video-learn-how {
+  position: relative;
+}
+
+.img-learn-how {
+  width: 100%;
+}
+
+.control-video-btn-default {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.play-btn-default {
+  position: relative;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  width: 6rem;
+  height: 6rem;
+  border-radius: 50%;
+  color: #ff3e66;
+  border: none;
+}
+
+.play-btn-default::before,
+.play-btn-default::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  border-radius: 50%;
+}
+
+.play-btn-default::before {
+  transform: translate(-50%, -50%);
+  border-bottom: 1.5px solid rgba(255, 255, 255, 0.8);
+  width: 6.7rem;
+  height: 6.7rem;
+}
+
+.play-btn-default::after {
+  transform: translate(-50.5%, -50.5%);
+  border: 1.5px solid rgba(255, 255, 255, 0.8);
+  border-bottom-color: transparent;
+  width: 6.4rem;
+  height: 6.4rem;
+}
+
+.play-icon {
+  align-self: center;
+  font-size: 1.6rem;
+}
+
+.download-btn-default {
+  display: flex-inline;
+  justify-content: center;
+  background-color: #fff;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  color: #33c956;
+  border: 2px solid transparent;
+}
+
+.download-icon {
+  align-self: center;
+  font-size: 1.2rem;
+}
+
+.video-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2.4rem;
+  text-align: left;
+}
+
+.video-title {
+  color: #0e1133;
+  font-size: 2.1rem;
+  margin-bottom: 0.5rem;
+}
+
+.video-description {
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+.video-btn-default-cta {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  font-weight: 500;
+}
+
+.img-description {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 3rem;
+}
+
+.description-img {
+  width: 100%;
+}
+
+.slides-controls {
+  gap: 1rem;
+}
+
+.btn-slide,
+.btn-slide--color {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  background: none;
+  border: 2px solid rgba(0, 0, 0, 0.1);
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+}
