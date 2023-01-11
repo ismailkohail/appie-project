@@ -337,8 +337,21 @@
   padding: 2.2rem 3.2rem;
   padding: 3.2rem;
   border: 1px solid rgba(255, 255, 255, 0.075);
-  border-radius: 4px;
+  border-radius: 6px;
   position: relative;
+  transition: all 0.3s;
+}
+
+.feature-box:hover:nth-child(1) {
+  border: 1px solid var(--secondary);
+}
+
+.feature-box:hover:nth-child(2) {
+  border: 1px solid #387aff;
+}
+
+.feature-box:hover:nth-child(3) {
+  border: 1px solid #33c956;
 }
 
 .feature-box-content {
