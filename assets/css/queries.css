@@ -1,8 +1,10 @@
-@media (max-width: 62em) {
-  /* Your styles for large devices go here */
+/* ------------------------------------------------------------*\
+ #Media query for screens with width less than or equal to 62em
+\*-------------------------------------------------------------*/
 
+@media (max-width: 62em) {
   /**
-  * General
+  * General styles for large devices
   */
 
   body {
@@ -22,9 +24,12 @@
   */
 
   .main-nav {
+    /* Hide main navigation */
     display: none;
   }
+
   .btn-mobile-nav {
+    /* Show mobile navigation button */
     display: block;
   }
 
@@ -43,6 +48,7 @@
     grid-template-columns: 1fr;
   }
   .marketing-img {
+    /* Hide marketing image */
     display: none;
   }
 
@@ -67,7 +73,6 @@
   }
 
   .discover-img {
-    width: 70%;
     margin: 0 auto;
     display: block;
   }
@@ -82,9 +87,32 @@
 
   .testimonial {
     flex-direction: column;
-    gap: 4.8rem;
+    /* gap: 4.8rem; */
+    gap: 3rem;
 
-    padding: 5rem;
+    /* padding: 5rem; */
+    padding: 4 rem 2rem;
+  }
+
+  .testimonial-text {
+    font-size: 1.2rem;
+  }
+
+  .testimonial-name {
+    font-size: 1.4rem;
+    margin-bottom: 0;
+  }
+
+  .testimonial-job {
+    font-size: 1rem;
+  }
+
+  .testimonial-picture {
+    width: 80%;
+  }
+
+  testimonial-rating-number {
+    font-size: 1rem;
   }
 
   .testimonial-body {
@@ -109,6 +137,10 @@
     margin-bottom: 6.4rem;
   }
 }
+
+/* ------------------------------------------------------------*\
+ #Media query for screens with width less than or equal to 48em
+\*-------------------------------------------------------------*/
 
 @media (max-width: 48em) {
   /**
@@ -223,12 +255,15 @@
 
   .copyright-footer {
     flex-direction: column;
+    padding-top: 0;
   }
 }
 
-@media (max-width: 36em) {
-  /* Your styles for small devices go here */
+/* ------------------------------------------------------------*\
+ #Media query for screens with width less than or equal to 36em
+\*-------------------------------------------------------------*/
 
+@media (max-width: 36em) {
   /**
   * General
   */
@@ -245,6 +280,14 @@
   }
   .btn-default {
     transform: scale(80%);
+  }
+
+  /**
+  * HERO SECTION
+  */
+
+  .hero-section {
+    margin-top: 5rem;
   }
 
   /**
@@ -267,10 +310,21 @@
   }
 
   /**
+  * DISCOVER SECTION
+  */
+  .discover-features {
+    justify-items: start;
+  }
+
+  /**
   * pricing-section
   */
 
   .testimonial {
     padding: 2rem;
+  }
+  .marketing-container {
+    height: auto;
+    padding: 1rem 1rem 0;
   }
 }

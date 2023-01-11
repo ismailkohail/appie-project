@@ -267,8 +267,8 @@
 */
 
 .marketing-img {
-  display: block;
-  margin: 0 auto;
+  /* display: block; */
+  /* margin: 0 auto; */
   width: 80%;
 }
 
@@ -280,11 +280,10 @@
   overflow-y: hidden;
   background-color: var(--bg);
   height: 36rem;
+  padding: 5rem 4rem 0;
 }
 
 .marketing-text-box {
-  padding-top: 6rem;
-  padding-right: 10rem;
   width: 100%;
 }
 
@@ -329,7 +328,7 @@
 }
 
 .discover-img {
-  width: 80%;
+  width: 100%;
 }
 
 .text-color {
@@ -500,13 +499,14 @@
 
 .play-btn-default::before {
   transform: translate(-50%, -50%);
+  border: 1.5px solid transparent;
   border-bottom: 1.5px solid rgba(255, 255, 255, 0.8);
   width: 6.7rem;
   height: 6.7rem;
 }
 
 .play-btn-default::after {
-  transform: translate(-50.5%, -50.5%);
+  transform: translate(-50%, -50.5%);
   border: 1.5px solid rgba(255, 255, 255, 0.8);
   border-bottom-color: transparent;
   width: 6.4rem;
@@ -807,6 +807,7 @@
 
 .stars-rating-icons {
   color: #faa00f;
+  font-size: 1.2rem;
 }
 
 .testimonial-body {
@@ -1079,11 +1080,18 @@
   text-decoration: none;
 }
 
+.copyright {
+  font-size: 1.27rem;
+}
+
 .address,
-.copyright,
 .email-info,
 .tel-info {
   font-size: 1.27rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 1rem;
+
   transition: all 0.3s;
 }
 
