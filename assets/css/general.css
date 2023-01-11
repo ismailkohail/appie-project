@@ -32,14 +32,14 @@ body {
   background-color: var(--bg);
 }
 
+/*-----------------------------------*\
+  #REUSABLE STYLE
+\*-----------------------------------*/
+
 .wraper {
   max-width: 150rem;
   margin: 0 auto;
 }
-
-/*-----------------------------------*\
-  #REUSABLE STYLE
-\*-----------------------------------*/
 
 .container {
   padding: 9.6rem 12.8rem;
