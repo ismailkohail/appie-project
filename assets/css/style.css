@@ -1056,10 +1056,11 @@
 }
 
 .copyright-footer,
-.app-download,
+.app-download--footer,
 .app-btn-default {
   display: flex;
   align-items: center;
+  gap: 1rem;
 }
 
 .copyright-footer {
@@ -1104,4 +1105,29 @@
 .tel-info {
   text-decoration: none;
   color: #515273;
+}
+
+/**
+* to the top
+*/
+
+.to-top {
+  font-size: 1.6rem;
+  color: #fff;
+  background-color: var(--secondary);
+
+  border: none;
+  border-radius: 4px;
+  padding: 1.2rem 1.3rem;
+
+  position: fixed;
+  right: 2.5rem;
+  bottom: 2.5rem;
+
+  opacity: 50%;
+  z-index: 99;
+}
+
+.to-top:hover {
+  opacity: 1;
 }
